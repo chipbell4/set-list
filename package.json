@@ -1,0 +1,22 @@
+{
+  "name": "set-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.tsx --bundle --outfile=dist/index.js",
+    "start": "npx http-server ."
+  },
+  "author": "Chip Bell",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.5",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
