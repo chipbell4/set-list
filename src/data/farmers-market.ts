@@ -19,8 +19,8 @@ const farmersMarket: SetList = {
         ["D", "A", "G", "D/F#", "G", "A", "D", undefined],
         ["Bm", "G", "A", "D/F#", "G", "A", "Bm", "A"],
         ["D", "A", "G", "D/F#", "G", "A", "D", undefined],
-      ]
-    }
+      ],
+    },
   ],
 };
 
