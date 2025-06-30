@@ -26,7 +26,7 @@ const App = () => {
     const reset = () => setSetName(null);
     appContent = (
         <div>
-            <div onClick={reset}>Back</div>
+            <div className="back-button" onClick={reset}>Back</div>
             <SongList songs={sets[setName].songs}></SongList>
         </div>
     );

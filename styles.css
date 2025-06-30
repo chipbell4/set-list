@@ -3,11 +3,15 @@ html {
 }
 
 .app {
-    max-width: 800px;
-    width: 90%;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 20px;
+}
+
+.song-list {
+    margin-top: 1em;
 }
 
 .song-container {
@@ -16,6 +20,10 @@ html {
     border: 2px solid black;
     border-radius: 4px;
     margin-bottom: 1em;
+}
+
+.song-container h2 {
+    cursor: pointer;
 }
 
 .song-container.played {
@@ -33,15 +41,26 @@ table.chord-chart {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+    width: 95%;
 }
 
 table.chord-chart td {
     border: 2px solid black;
-    padding: 0.5em;
+    padding: 1.0em;
     text-align: center;
-    min-width: 4em;
 }
 
 .accordion-container .collapsable-content.closed {
     display: none;
+}
+
+/* Some general styling for "links" */
+.back-button, .set, .toggle {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.back-button:active, .set:active, .toggle:active {
+    color: purple;
 }
