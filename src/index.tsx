@@ -6,7 +6,7 @@ import Song from "./song";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <h1>Set List</h1>
       <Song song={farmersMarket.songs[0]}></Song>
     </div>
