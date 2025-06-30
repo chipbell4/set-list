@@ -1,3 +1,15 @@
 html {
     font-family: Arial;
 }
+
+table.chord-chart {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+table.chord-chart td {
+    border: 2px solid black;
+    padding: 0.5em;
+    text-align: center;
+    min-width: 5em;
+}
