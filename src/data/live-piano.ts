@@ -1,32 +1,32 @@
 import { SetList } from "./set-list";
 
 const titles = [
-    // Jazz Standards
-    "Georgia On My Mind",
-    "Have You Met Miss Jones",
-    "I Love You",
-    "I'll Remember April",
-    "Misty",
-    "There Will Never Be Another You",
+  // Jazz Standards
+  "Georgia On My Mind",
+  "Have You Met Miss Jones",
+  "I Love You",
+  "I'll Remember April",
+  "Misty",
+  "There Will Never Be Another You",
 
-    // VGM
+  // VGM
 
-    // Popular Stuff
+  // Popular Stuff
 ];
 
-const songs = titles.map(title => ({ title }));
+const songs = titles.map((title) => ({ title }));
 
 // Fisher-Yates Shuffle, sorta
 for (let i = 0; i < songs.length; i++) {
-    const j = Math.floor(i + (songs.length - i) * Math.random());
-    const temp = songs[i];
-    songs[i] = songs[j];
-    songs[j] = temp;
+  const j = Math.floor(i + (songs.length - i) * Math.random());
+  const temp = songs[i];
+  songs[i] = songs[j];
+  songs[j] = temp;
 }
 
 const livePiano: SetList = {
-    name: "Live Piano",
-    songs,
-}
+  name: "Live Piano",
+  songs,
+};
 
-export default livePiano
+export default livePiano;
