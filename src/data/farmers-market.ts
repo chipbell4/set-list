@@ -21,6 +21,26 @@ const farmersMarket: SetList = {
         ["D", "A", "G", "D/F#", "G", "A", "D", undefined],
       ],
     },
+    {
+      title: "Eleanor Plunkett",
+      chords: [
+        ["G", "Em", "C", "Bm", "Am", "D"],
+        ["G", "Em", "C", "Bm", "Am", "D"],
+        [["G", "Bm"], "C", "Em", "D"],
+        ["G", "Bm", "C", "Bm", "Am", "D"],
+        [["G", "Bm"], "C", "Em", "D"],
+        ["G", "Bm", "C", "Bm", "Am", "D"],
+      ],
+    },
+    {
+      title: "Spirits of Da Na Din",
+      chords: [
+        ["Dm", "Am", "Bb", "F", "Dm", "Gm", "Bb", "C"],
+        ["Dm", "Am", "Bb", "F", "Dm", "A7", "Dm", undefined],
+        ["Dm", "Am", "Bb", "F", "Dm", "Gm", "Bb", "C"],
+        ["Dm", "Am", "Bb", "F", "Dm", "A7", "Dm", undefined],
+      ],
+    },
   ],
 };
 
