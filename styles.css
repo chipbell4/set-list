@@ -2,6 +2,14 @@ html {
     font-family: Arial;
 }
 
+.song-container.played {
+    color: #666;
+}
+
+.song-container.played h2 {
+    font-style: italic;
+}
+
 table.chord-chart {
     border: 1px solid black;
     border-radius: 4px;

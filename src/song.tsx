@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Song } from "./data/set-list";
 import Accordion from "./accordion";
 import ChordChart from "./chord-chart";
@@ -8,6 +8,8 @@ interface SongProps {
 }
 
 export default function SongComponent({ song }: SongProps) {
+  const [isPlayed, setIsPlayed] = useState(false);
+
   const description = song.notes ? <p>{song.notes}</p> : null;
 
   const accordion = song.chords ? (
@@ -16,9 +18,15 @@ export default function SongComponent({ song }: SongProps) {
     </Accordion>
   ) : null;
 
+  let songContainerClassName = "song-container";
+  if (isPlayed) {
+    songContainerClassName += " played";
+  }
+  const toggle = () => setIsPlayed(!isPlayed);
+
   return (
-    <div className="song-container">
-      <h2>{song.title}</h2>
+    <div className={songContainerClassName}>
+      <h2 onClick={toggle}>{song.title}</h2>
       {description}
       {accordion}
     </div>
