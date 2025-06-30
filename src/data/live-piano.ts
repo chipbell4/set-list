@@ -8,8 +8,22 @@ const titles = [
   "I'll Remember April",
   "Misty",
   "There Will Never Be Another You",
+  "Invitation",
+  "One-Note Samba",
 
   // VGM
+  "Jolly Roger Bay",
+  "Zelda's Lullaby",
+  "Song of Healing",
+  "Ecruteak City",
+  "Azalea Town",
+  "Gold/Silver National Park",
+
+  // My Stuff
+  "I Might",
+  "Unimpressed",
+  "Cape",
+  "Soda Lake",
 
   // Popular Stuff
 ];
