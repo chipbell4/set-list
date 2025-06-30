@@ -25,10 +25,12 @@ const App = () => {
   } else {
     const reset = () => setSetName(null);
     appContent = (
-        <div>
-            <div className="back-button" onClick={reset}>Back</div>
-            <SongList songs={sets[setName].songs}></SongList>
+      <div>
+        <div className="back-button" onClick={reset}>
+          Back
         </div>
+        <SongList songs={sets[setName].songs}></SongList>
+      </div>
     );
   }
 
