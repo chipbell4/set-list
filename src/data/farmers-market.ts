@@ -12,6 +12,15 @@ const farmersMarket: SetList = {
         ["C", "G", "Am", undefined],
       ],
     },
+    {
+      title: "Salley Gardens",
+      chords: [
+        ["D", "A", "G", "D/F#", "G", "A", "D", "A"],
+        ["D", "A", "G", "D/F#", "G", "A", "D", undefined],
+        ["Bm", "G", "A", "D/F#", "G", "A", "Bm", "A"],
+        ["D", "A", "G", "D/F#", "G", "A", "D", undefined],
+      ]
+    }
   ],
 };
 
