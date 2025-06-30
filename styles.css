@@ -10,8 +10,16 @@ html {
     text-align: center;
 }
 
+.song-container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
 .song-container.played {
     color: #666;
+    background-color: #eee;
 }
 
 .song-container.played h2 {
