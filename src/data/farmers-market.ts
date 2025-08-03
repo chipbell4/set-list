@@ -41,6 +41,43 @@ const farmersMarket: SetList = {
         ["Dm", "Am", "Bb", "F", "Dm", "A7", "Dm", undefined],
       ],
     },
+    {
+      title: "MacPherson's Lament",
+      chords: [
+        ["G", ["G", "D"], "G", ["C", "D"]],
+        ["G", ["G", "D"], "Em", "D"],
+        ["G", ["G", "D"], "G", ["C", "D"]],
+        ["G", ["G", "D"], "Em", ["C", "D"]],
+      ]
+    },
+    {
+      title: "Down by the Glenside",
+      chords: [
+        ["Em", "Bm", "Em", "Bm"],
+        ["Em", "Bm", "Em", "Bm"],
+        ["Em", "C", "Em", "D"],
+        ["Em", "Bm", ["Am7", "Bm"], "Em", "Em", "Em"],
+      ]
+    },
+    {
+      title: "Llanthony Valley",
+      chords: [
+        ["Em", ["Bm", "G"], "D",       "Bm"],
+        ["Em", ["Bm", "G"], "Bm",      "Em"],
+        ["Em", ["Bm", "G"], "D",       "Bm"],
+        ["G", ["D", "Bm"], ["C", "D"], ["Em", "D"]],
+        ["G", ["D", "Em"], "Em",       ["G", "D"], "Em"],
+      ]
+    },
+    {
+      title: "Kitty Magennis",
+      chords: [
+        ["C / Bb", "Dm", "Bb F", "Am", "Dm"]
+      ]
+    },
+    {
+      title: "The Parting Glass",
+    }
   ],
 };
 
