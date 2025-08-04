@@ -10,7 +10,7 @@ export default function ChordChart({ chords }: ChordChartProps) {
     if (symbol === undefined) {
       return <td></td>;
     } else if (Array.isArray(symbol)) {
-      return <td>{symbol.join(" / ")}</td>;
+      return <td>{symbol.join(" | ")}</td>;
     } else {
       return <td>{symbol}</td>;
     }
