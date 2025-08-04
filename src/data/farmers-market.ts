@@ -72,11 +72,46 @@ const farmersMarket: SetList = {
     {
       title: "Kitty Magennis",
       chords: [
-        ["C / Bb", "Dm", "Bb F", "Am", "Dm"]
+        [["C", "Bb"], "Dm", ["Bb", "F"], "Am"],
+        ["Dm", "C", "Dm", "Bb"],
+        ["Dm", "C", "Dm", "Am"],
+        ["Bb", ["F", "C"], "Dm", "C"],
+        
+        [["C", "Bb"], "Dm", ["Bb", "F"], "Am"],
+        ["Dm", "C", "Dm", "Bb"],
+        ["Dm", ["Bb", "F"], ["C", "F"], "Bb"],
+        ["Dm", "Bb", ["Dm", "C"], "F"],
+
+        ["Bb", ["F", "C"], "Dm", "C"],
       ]
     },
     {
       title: "The Parting Glass",
+      notes: "Each chord 2 beats",
+      chords: [
+        ["Em", "C", "G", "D"],
+        ["G", undefined, "Bm", "D"],
+        ["Em", "C", "G", "D"],
+        ["Em", "Bm", "Em", undefined],
+
+        ["G", undefined, "Bm", undefined],
+        ["Am", "G", "Bm", "D"],
+
+        ["Em", "C", "G", "D"],
+        ["Em", "Bm", "Em", undefined],
+      ]
+    },
+    {
+      title: "The Foggy Dew",
+    },
+    {
+      title: "I Left Him On The Mountainside",
+      chords: [
+        ["Dm7", "Em7", ["F", "G"], ["Am", "Em"]],
+        ["Dm7", "Em7", ["Fmaj7", "G"], "Am"],
+        [["Am", "C"], "Dm", ["Am", "C"], ["Am", "Em7"]],
+        ["Dm7", "Em7", ["F", "Em"], "Am"],
+      ]
     }
   ],
 };
