@@ -5,6 +5,7 @@ const farmersMarket: SetList = {
   songs: [
     {
       title: "Dermit O' Dowd",
+      notes: "3/4",
       chords: [
         ["Am", undefined, "G", "Em"],
         ["Am", undefined, "G", "Em"],
@@ -14,6 +15,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "Salley Gardens",
+      notes: "4/4",
       chords: [
         ["D", "A", "G", "D/F#", "G", "A", "D", "A"],
         ["D", "A", "G", "D/F#", "G", "A", "D", undefined],
@@ -23,6 +25,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "Eleanor Plunkett",
+      notes: "3/4",
       chords: [
         ["G", "Em", "C", "Bm", "Am", "D"],
         ["G", "Em", "C", "Bm", "Am", "D"],
@@ -34,6 +37,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "Spirits of Da Na Din",
+      notes: "3/4",
       chords: [
         ["Dm", "Am", "Bb", "F", "Dm", "Gm", "Bb", "C"],
         ["Dm", "Am", "Bb", "F", "Dm", "A7", "Dm", undefined],
@@ -43,6 +47,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "MacPherson's Lament",
+      notes: "4/4",
       chords: [
         ["G", ["G", "D"], "G", ["C", "D"]],
         ["G", ["G", "D"], "Em", "D"],
@@ -52,6 +57,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "Down by the Glenside",
+      notes: "3/4",
       chords: [
         ["Em", "Bm", "Em", "Bm"],
         ["Em", "Bm", "Em", "Bm"],
@@ -61,6 +67,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "Llanthony Valley",
+      notes: "4/4",
       chords: [
         ["Em", ["Bm", "G"], "D",       "Bm"],
         ["Em", ["Bm", "G"], "Bm",      "Em"],
@@ -71,6 +78,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "Kitty Magennis",
+      notes: "3/4",
       chords: [
         [["C", "Bb"], "Dm", ["Bb", "F"], "Am"],
         ["Dm", "C", "Dm", "Bb"],
@@ -87,7 +95,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "The Parting Glass",
-      notes: "Each chord 2 beats",
+      notes: "4/4. Each chord 2 beats",
       chords: [
         ["Em", "C", "G", "D"],
         ["G", undefined, "Bm", "D"],
@@ -103,7 +111,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "The Foggy Dew",
-      notes: "Each chord 2 beats",
+      notes: "4/4. Each chord 2 beats",
       chords: [
         ["Em", "Bm", "C", "Bm"],
         ["C", "Am", "Em", undefined],
@@ -117,6 +125,7 @@ const farmersMarket: SetList = {
     },
     {
       title: "I Left Him On The Mountainside",
+      notes: "4/4",
       chords: [
         ["Dm7", "Em7", ["F", "G"], ["Am", "Em"]],
         ["Dm7", "Em7", ["Fmaj7", "G"], "Am"],
