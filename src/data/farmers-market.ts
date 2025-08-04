@@ -103,6 +103,17 @@ const farmersMarket: SetList = {
     },
     {
       title: "The Foggy Dew",
+      notes: "Each chord 2 beats",
+      chords: [
+        ["Em", "Bm", "C", "Bm"],
+        ["C", "Am", "Em", undefined],
+        ["Em", "Bm", "C", "Bm"],
+        ["C", "Am", "Em", undefined],
+        ["G", undefined, "D", "Em"],
+        ["Em", undefined, "C", "Bm"],
+        ["Em", "Bm", "C", "Bm"],
+        ["C", "Am", "Em", undefined],
+      ]
     },
     {
       title: "I Left Him On The Mountainside",
